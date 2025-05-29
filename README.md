@@ -1,5 +1,15 @@
 # jupyterlab
 Python with Spark env for real time data analysis.
+```bash
+py -m venv venv
+venv\Scripts\activate
+pip install --no-cache-dir --upgrade pip setuptools
+pip install cookiecutter
+cookiecutter https://github.com/jtargalski/RTA_project
+cd .cookiecutters\RTA_project
+docker compose up
+```
+
 
 ```bash
 cd jupyterlab-project
